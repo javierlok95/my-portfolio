@@ -1,0 +1,9 @@
+.mx-lg-auto {
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+.lead-word {
+    font-weight: 600;
+}
