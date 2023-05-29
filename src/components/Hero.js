@@ -4,9 +4,14 @@ import "./hero.css"
 import hero from '../images/hero-img.png';
 
 const Hero = () => {
+    const initialRender = useRef(true);
     const textRef = useRef();
 
     useEffect(() => {
+        if (initialRender.current) {
+            initialRender.current = false;
+            return;
+        }
         const textOptions = {
             showCursor: true,
             typeSpeed: 50,
@@ -18,7 +23,7 @@ const Hero = () => {
             loop: true,
             loopCount: Infinity,
             strings: ["Front-end Developer"],
-        };
+        };// eslint-disable-next-line
         const typed = new Typed(textRef.current, textOptions);
     }, []);
 
@@ -41,7 +46,7 @@ const Hero = () => {
                     </div>
                     <div className="lc-block mb-3">
                         <div editable="rich">
-                            <p className="lead-word">HTML - CSS - Javascript - React</p>
+                            <p className="lead-word">HTML - CSS - Javascript - React - Bootstrap</p>
                         </div>
                     </div>
                 </div>

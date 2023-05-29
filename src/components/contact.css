@@ -39,7 +39,9 @@ label {
   font-weight: bold;
 }
 
-input[type="text"] {
+input[type="text"],
+[type="email"],
+[name="message"]{
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
@@ -73,4 +75,8 @@ input[type="text"] {
   .contact-title h2 {
     font-size: 30px;
   }
+}
+
+#emailerror{
+  color: #ff0f0f;
 }
