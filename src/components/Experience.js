@@ -49,7 +49,8 @@ const Experience = () => {
                         <div className="timeline_content">
                            <span>2022 - Present</span>
                            <h4>Showcase of  my Projects </h4>
-                           <p>Throughout my learning journey with Meta, I successfully applied my acquired skills to build a portfolio website, a restaurant app, and a weather app.
+                           <p>Throughout my learning journey with Meta, I successfully applied my acquired skills to build a portfolio website, a restaurant app, and a weather app. 
+                              Additionally, I have continuously applied my JavaScript skill in a new venture on Node.js, Express.js, Mongoose, and MongoDB for storage management.
                               These projects demonstrate my ability to create clean, responsive, and scalable applications</p>
                         </div>
                      </li>

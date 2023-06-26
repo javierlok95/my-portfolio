@@ -22,7 +22,7 @@ const Hero = () => {
             backDelay: 1000,
             loop: true,
             loopCount: Infinity,
-            strings: ["Front-end Developer"],
+            strings: ["Full-Stack Developer"],
         };// eslint-disable-next-line
         const typed = new Typed(textRef.current, textOptions);
     }, []);
@@ -45,8 +45,10 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className="lc-block mb-3">
-                        <div editable="rich">
-                            <p className="lead-word">HTML - CSS - Javascript - React - Bootstrap</p>
+                        <div editable="rich" className="lead-word">
+                            <p><b>Front-End Skills</b>: HTML - CSS - Javascript - React - Bootstrap </p>
+                               <p><b>Back-End Skills</b>: Node.js, Express.js, Mongoose, MongoDB
+                            </p>
                         </div>
                     </div>
                 </div>
