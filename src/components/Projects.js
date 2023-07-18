@@ -1,4 +1,5 @@
 import React from 'react';
+import MyDashboard from '../images/my-dashboard.png';
 import Vidflix from '../images/VidFlix.png';
 import Restaurant from '../images/Little-Lemon-Restaurant.png';
 import Weather from '../images/Weather-App.png';
@@ -11,6 +12,19 @@ const Projects = () => {
         <h1 className="text-center-projects">Projects</h1>
         <hr className="line" />
         <div className="row">
+
+           {/* My Dashboard */}
+           <div className="col-lg-4 mt-4">
+            <div className="card">
+              <img className="card-img-top" src={MyDashboard} alt="Dashboard of Data Management" />
+              <div className="card-body">
+                <h4 className="card-title">My Dashboard App</h4>
+                <div className="text-center">
+                  <a href="https://github.com/javierlok95/my-dashboard-fullstack-mern" target="blank" className="btn btn-success">VIEW PROJECT</a>
+                </div>
+              </div>
+            </div>
+          </div>
 
           {/* Vidflix */}
           <div className="col-lg-4 mt-4">

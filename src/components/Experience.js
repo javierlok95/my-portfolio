@@ -21,7 +21,7 @@ const Experience = () => {
                            <span>2016 - 2016</span>
                            <h4>BulbsCanada.com Inc. – Technical Sales Representative</h4>
                            <p>Ensured the smooth functioning of computer systems and shipping software (EST 2.0).
-                              Responsible for system maintenance, updates, and troubleshooting, minimizing disruptions and maximizing operational efficiency </p>
+                              Responsible for system maintenance, updates, and troubleshooting, minimizing disruptions and maximizing operational efficiency. </p>
                         </div>
                      </li>
                      {/* <!-- Single Experience --> */}
@@ -51,7 +51,7 @@ const Experience = () => {
                            <h4>Showcase of  my Projects </h4>
                            <p>Throughout my learning journey with Meta, I successfully applied my acquired skills to build a portfolio website, a restaurant app, and a weather app. 
                               Additionally, I have continuously applied my JavaScript skill in a new venture on Node.js, Express.js, Mongoose, and MongoDB for storage management.
-                              These projects demonstrate my ability to create clean, responsive, and scalable applications</p>
+                              These projects demonstrate my ability to create clean, responsive, and scalable applications.</p>
                         </div>
                      </li>
                   </ul>

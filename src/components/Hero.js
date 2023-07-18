@@ -46,7 +46,7 @@ const Hero = () => {
                     </div>
                     <div className="lc-block mb-3">
                         <div editable="rich" className="lead-word">
-                            <p><b>Front-End Skills</b>: HTML - CSS - Javascript - React - Bootstrap </p>
+                            <p><b>Front-End Skills</b>: HTML - CSS - Javascript - React - Redux - Bootstrap </p>
                                <p><b>Back-End Skills</b>: Node.js, Express.js, Mongoose, MongoDB
                             </p>
                         </div>
